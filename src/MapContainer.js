@@ -45,7 +45,7 @@ componentWillMount(){
 
       const mapConfig = Object.assign({}, {
         center: {lat: 61.548362, lng: 23.669583}, // sets center of google map to Tampere City.
-        zoom: 8, // sets zoom. Lower numbers are zoomed further out.
+        zoom: 18, // sets zoom. Lower numbers are zoomed further out.
         mapTypeId: 'roadmap' // optional main map layer. Terrain, satellite, hybrid or roadmap--if unspecified, defaults to roadmap.
       })
 
