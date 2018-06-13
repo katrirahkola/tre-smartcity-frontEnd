@@ -44,8 +44,8 @@ componentWillMount(){
       const node = ReactDOM.findDOMNode(mapRef); // finds the 'map' div in the React DOM, names it node
 
       const mapConfig = Object.assign({}, {
-        center: {lat: 61.497978, lng: 23.764931}, // sets center of google map to Tampere City.
-        zoom: 11, // sets zoom. Lower numbers are zoomed further out.
+        center: {lat: 61.548362, lng: 23.669583}, // sets center of google map to Tampere City.
+        zoom: 8, // sets zoom. Lower numbers are zoomed further out.
         mapTypeId: 'roadmap' // optional main map layer. Terrain, satellite, hybrid or roadmap--if unspecified, defaults to roadmap.
       })
 
